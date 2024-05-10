@@ -1,6 +1,6 @@
 // Task# 01: Write a program to take a number in a variable, do the required arithmetic operations to display the given result in your browser:
 
-// var a = prompt("Enter a number");
+// var a = +prompt("Enter a number");
 
 // var orignal_a = a;
 // var a1 = ++a;
