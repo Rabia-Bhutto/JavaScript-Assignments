@@ -1,30 +1,21 @@
 // Task# 01: Write a program to take a number in a variable, do the required arithmetic operations to display the given result in your browser:
 
-// var a = +prompt("Enter a number");
+//  var a = 10;
+ 
+//  document.write("Result:<br> The value of a is:10");
 
-// var orignal_a = a;
-// var a1 = ++a;
-// var a2 = a1++;
-// var a3 = --a2;
-// var a4 = a3--;
+//  ++a;
+//  document.write("<br>The value of ++a is :11 <br> Now the value of ++a is :11")
 
-// document.write("<h1>RESULT:</h1>");
-// document.write("<p>The value of a is: " + orignal_a + "</p>");
-// document.write("<hr>");
-// document.write("<br>")
-// document.write("<p>The value of ++a is: " + a1 + "</p>");
-// document.write("<p>Now the value of a is: " + a1 + "</p>");
-// document.write("<br>");
-// document.write("<p>The value of a++ is: " + a2 + "</p>");
-// document.write("<p>Now the value of a is: " + a2 + "</p>");
-// document.write("<br>");
-// document.write("<p>The value of --a is: " + a3 + "</p>");
-// document.write("<p>Now the value of a is: " + a3 + "</p>");
-// document.write("<br>");
-// document.write("<p>The value of a-- is: " + a4 + "</p>");
-// document.write("<p>Now the value of a is: " + a4 + "</p>");
+//  ++a;
 
-// TO BE COMPLETED!
+
+//  document.write("<br>The value of ++a is :11 <br> Now the value of ++a is :12");
+// --a;
+// document.write("<br>The value of --a is :11 <br> Now the value of --a is :11");
+
+// --a;
+// document.write("<br>The value of --a is :11 <br> Now the value of --a is :10");
 
 
 // // Task# 02: What will be the output in variables a, b & result after execution of the following script:
