@@ -136,4 +136,102 @@
 // }
 
 
-// Task# 14: 
+// Task# 14: You have an array A = [cake”, “apple pie”, “cookie”, “chips”, “patties”] Write a program to enable “search by user input” in an array. After searching, prompt the user whether the given item is found in the list or not.
+// Note: Perform case insensitive search. Whether the user enters cookie, Cookie, COOKIE or coOkIE, program should inform about its availability.
+
+// var userInput = prompt("What would you like to have?");
+// userInput = userInput.toLowerCase();
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var found = false;
+// for (var i = 0; i < A.length; i++){
+//     if (A[i].toLowerCase() === userInput){
+//         found = true;
+//         break;
+//     }
+// }
+// if (found === true){
+//     alert(userInput + " is available at our bakery.");
+// }
+// else{
+//     alert("We are sorry, " + userInput + " is not available at our bakery.");
+// }
+
+
+// Task# 15: Write a program to take password as an input from user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers.
+// b. It should not start with a number.
+// c. It must at least 6 characters long.
+// If the password does not meet above requirements, prompt the user to enter a valid password. For character codes of a-z, A-Z & 0-9, refer to ASCII table at the end of this document.
+
+// var password = prompt("Enter your password:");
+// var hasLetters = false;
+// var hasNum = false;
+// var isValid = true;
+
+// if (password.length < 6){
+//     alert("Password must be at least 6 characters long.");
+//     isValid = false;
+// }
+
+// if (!isNaN (password.charAt(0))){
+//     alert("Password should not start with a number.");
+//     isValid = false;
+// }
+
+// for (var i = 0; i < password.length; i++){
+//     var charCode = password.charCodeAt(i);
+//     if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)){
+//         hasLetters = true;
+//     }
+//     else if (charCode >= 48 && charCode <= 57){
+//         hasNum = true;
+//     }
+// }
+
+// if (!hasLetters || !hasNum){
+//     alert("Password must contain both letters and numbers.");
+//     isValid = false;
+// }
+
+// if (isValid && hasLetters && hasNumber) {
+//     alert("Password is valid.");
+// } else if (isValid) {
+//     alert("Password is invalid.");
+// }
+
+// modify this code for batter user experience!
+
+
+// Task# 16: Write a program to convert the following string to an array using string split method. var university = “University of Karachi”; Display the elements of array in your browser.
+
+// var university = "University of Karachi";
+// var arr = university.split(" ");
+// document.write(arr);
+
+
+// Task# 17: Write a program to display the last character of a user input.
+
+// var userInput = prompt('Give your input:');
+// if (userInput && userInput.length > 0){
+//     var lastChar = userInput.charAt(userInput.length-1);
+//     alert("The last character of your input is: " + lastChar);
+// }
+// else {
+//     alert("Invalid input. Please enter a valid string.");
+// }
+
+
+// Task# 18: You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
+
+// var text = "The quick brown fox jumps over the lazy dog.";
+// var text = text.toLowerCase();
+// var wordToSearch = "the";
+// var words = text.split(" ");
+// var count = 0;
+
+// for (var i = 0; i < words.length; i++){
+//     if (words[i] === wordToSearch) {
+//         count++;
+//     }
+// }
+// console.log("Number of occurrences of '" + wordToSearch + "': " + count);
