@@ -5,7 +5,7 @@
 // var slice2 = userFirstName.slice(1);
 // firstName = slice1.toUpperCase() + slice2.toLowerCase();
 // console.log(firstName);
-// var userLastName = prompt("Enter your lats name:");
+// var userLastName = prompt("Enter your last name:");
 // var slice3 = userLastName.slice(0, 1);
 // var slice4 = userLastName.slice(1);
 // lastName = slice3.toUpperCase() + slice4.toLowerCase();
