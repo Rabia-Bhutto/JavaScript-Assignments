@@ -1,0 +1,55 @@
+/* TASK# 03 */
+
+/* table {
+    width: 90%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.delete-btn {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: darkred;
+} */
+
+
+/* TASK# 05 */
+
+/* .counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.counter-value {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.increase {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+.decrease {
+    background-color: #f44336;
+    color: white;
+    border: none;
+} */
