@@ -1,0 +1,88 @@
+/* TASK# 01 */
+
+/* .outer-container {
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+
+}
+
+.inner-container {
+    background-color: black;
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.head {
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.submit-btn {
+    background-color: grey;
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.output-container {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid grey;
+    display: none;
+} */
+
+
+/* TASK# 02 */
+
+/* .content {
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.more-text {
+    display: none;
+}
+
+.read-more-btn {
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: none;
+} */
+
+
+/* TASK# 03 */
+
+/* body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+   */
