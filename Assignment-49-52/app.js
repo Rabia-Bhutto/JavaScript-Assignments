@@ -71,7 +71,7 @@
 //     resetForm();
 //   }
 
-//   // Function to delete a student row
+  // Function to delete a student row
 // function deleteStudent(button){
 //     button.parentNode.parentNode.remove();
 // }
